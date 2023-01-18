@@ -50,7 +50,7 @@ module.exports = {
             loader: 'sass-resources-loader', 
             options: { 
               resources: [
-                './src/assets/sass/_breakpoints.scss'
+                './src/assets/sass/global/_breakpoints.scss'
               ] 
             }
           }

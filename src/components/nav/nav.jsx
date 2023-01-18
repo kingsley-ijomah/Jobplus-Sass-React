@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import {
   Hamburger,
@@ -22,49 +23,49 @@ export default function nav() {
           </label>
         </li>
         <li className="nav__logo">
-          <a href="index.html">JOBPLUS</a>
+          <Link to="/">JOBPLUS</Link>
         </li>
       </ul>
 
       <ul className="nav__icons">
         <li>
-          <a href="listings.html">
+          <Link to="/listings">
             <img src={Magnify} alt="" />
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="notification.html">
+          <Link to="/notifications">
             <img src={NotifyActive} alt="" />
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="saved_jobs.html">
+          <Link to="/saved-jobs">
             <img src={Saved} alt="" />
             <span className="nav__savedcount">1</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="profile.html">
+          <Link to="/profile">
             <img src={Profile} alt="" />
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="login.html">
+          <Link to="/login">
             <img src={Exit} alt="" />
-          </a>
+          </Link>
         </li>
       </ul>
 
       <ul className="nav__dropl">
-        <a href="index.html">
+        <Link to="/">
           <li>Home</li>
-        </a>
-        <a href="listings.html">
+        </Link>
+        <Link to="/listings">
           <li>Job listing</li>
-        </a>
-        <a href="applications.html">
+        </Link>
+        <Link to="/applications">
           <li>Job applications</li>
-        </a>
+        </Link>
       </ul>
     </nav>
   );

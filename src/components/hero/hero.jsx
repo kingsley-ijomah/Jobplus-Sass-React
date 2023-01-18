@@ -1,6 +1,6 @@
 import React from 'react'
 import './hero.scss'
-import Form from '../form/form'
+import Form from '../search/search'
 
 export default function hero() {
   return (

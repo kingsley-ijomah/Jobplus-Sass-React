@@ -5,7 +5,7 @@ import { CookieClose } from '../images'
 
 export default function cookie() {
   return (
-    <div class="cookie">
+    <div className="cookie">
       <p>
         Jobplus uses cookies. By continuing you are agreeing to
         our use of cookies. <a href="">Learn more</a>.
